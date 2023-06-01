@@ -1,0 +1,52 @@
+@font-face {
+        font-family: Mixcross;
+        src:url('./src/assets/Mixcross.otf');
+    }
+    
+.navbar{
+        display: flex;
+        margin: 20px 10%;
+        justify-content: space-between;
+}
+
+.first-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.logo{
+        font-family: Mixcross,Arial, Helvetica, sans-serif;
+}
+
+.menu{
+        display: flex;
+        list-style: none;
+}
+
+.menu a{
+        text-decoration: none;
+        color: #565d64;
+        padding-right: 20px;
+}
+
+.second-nav{
+        display: flex;
+        align-items: center;
+}
+
+.icon{
+        width: 20px;
+        height: 20px;
+        padding-right: 20px;
+}
+
+.avatar{
+        width: 40px;
+        height: 40px;
+}
+
+
+/* ///// BODY /////// */
+
+
