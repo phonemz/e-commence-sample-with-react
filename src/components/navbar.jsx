@@ -1,9 +1,11 @@
 import react from "react";
 import './navbar.css'
+import cartImage from '../assets/images/icon-cart.svg'
+import avatarImage from '../assets/images/image-avatar.png'
 
 function Navbar() {
 
-        const menuList = ['Collections','Men','Women','About','Contact','Kyaw Khaing Oo']
+        const menuList = ['Collections','Men','Women','About','Contact']
         return (
                 <>
                         <div className="navbar">
@@ -18,8 +20,8 @@ function Navbar() {
                                         </ul>
                                 </div>
                                 <div className="second-nav">
-                                        <img className="icon" src="src/assets/images/icon-cart.svg" alt="" />
-                                        <img className="avatar" src="src/assets/images/image-avatar.png" alt="" />
+                                        <img className="icon" src={cartImage} alt="" />
+                                        <img className="avatar" src={avatarImage} alt="" />
                                 </div>
                         </div>
                 </>
