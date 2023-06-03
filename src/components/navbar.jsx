@@ -3,7 +3,7 @@ import './navbar.css'
 
 function Navbar() {
 
-        const menuList = ['Collections','Men','Women','About','Contact']
+        const menuList = ['Collections','Men','Women','About','Contact','Kyaw Khaing Oo']
         return (
                 <>
                         <div className="navbar">
